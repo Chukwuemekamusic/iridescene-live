@@ -1,211 +1,382 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Iridescence Live 2026 — The Comeback</title>
-<link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-
-<nav>
-  <div class="wrap nav-inner">
-    <a class="logo" href="#top">IRIDESCENCE <span>LIVE</span></a>
-    <ul class="nav-links">
-      <li><a href="#comeback">The comeback</a></li>
-      <li><a href="#tickets">Tickets</a></li>
-      <li><a href="#sponsors">Sponsors</a></li>
-      <li><a href="#venue">Venue</a></li>
-    </ul>
-    <a class="btn btn-primary nav-cta" href="#tickets">Get tickets</a>
-  </div>
-</nav>
-
-<header id="top">
-  <div class="hero-photo" role="img" aria-label="Portrait of the artist emerging from darkness"></div>
-  <div class="hero-veil"></div>
-  <div class="wrap hero-content">
-    <div class="rec"><span class="rec-dot"></span>RECORDED LIVE &middot; IRIDESCENCE LIVE 2026</div>
-    <h1><span class="grad-text">The</span><br>Comeback</h1>
-    <p class="hero-sub">A night of <strong>good music</strong> — soul, groove, and a full live band, captured in our first-ever live recording. This is the return. Be in the room when it happens.</p>
-    <div class="date-pill">
-      <div><b>SUN 26 JULY 2026</b><br><span>Doors 4pm &middot; Show 5pm</span></div>
-      <i></i>
-      <div><b>NIRVANA</b><br><span>Full live band</span></div>
-    </div>
-    <div class="hero-actions">
-      <a class="btn btn-primary" href="#tickets">Get tickets</a>
-      <a class="btn btn-ghost" href="#sponsors">Become a sponsor</a>
-    </div>
-  </div>
-</header>
-
-<div class="lineup" aria-label="Featured artists">
-  <div class="wrap lineup-inner">
-    <span class="eyebrow">Featuring</span>
-    <ul class="lineup-names">
-      <li>Edge Golbador</li>
-      <li>Ceaser Music</li>
-      <li>Josh Gigins</li>
-      <li class="more">+ more to be announced</li>
-    </ul>
-  </div>
-</div>
-
-<section id="comeback">
-  <div class="wrap">
-    <div class="about-grid">
-      <div>
-        <div class="eyebrow">About the experience</div>
-        <h2>More than <span class="grad-text">a concert</span></h2>
-        <p class="lead">Iridescence Live is a music experience built on one simple idea: excellent, soulful, feel-good live music. The 2026 edition — <strong>The Comeback</strong> — is our biggest night yet: a full live band and our first-ever live recording, captured in the room with you.</p>
-        <div class="pillars">
-          <div class="pillar"><b>Soul &amp; groove</b><p>Warm, feel-good live music with a full band — made to be felt, not just heard.</p></div>
-          <div class="pillar"><b>Recorded live</b><p>Every moment is captured — your energy in the room becomes part of the record.</p></div>
-          <div class="pillar"><b>One room</b><p>Music lovers and creatives, together for one unrepeatable evening.</p></div>
-        </div>
-      </div>
-      <div class="about-photo">
-        <img src="assets/img/about.jpg" alt="The artist in a white shirt, black and white portrait">
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="tickets">
-  <div class="wrap">
-    <div class="eyebrow">Tickets</div>
-    <h2>Be in <span class="grad-text">the room</span></h2>
-    <p class="lead">Seats are limited — this is a live recording, and the room is part of the sound.</p>
-    <div class="tix-grid">
-      <div class="tix">
-        <div class="tier">Regular</div>
-        <div class="price">₦5,000</div>
-        <ul>
-          <li>General admission</li>
-          <li>Full live experience</li>
-          <li>Part of the live recording</li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iridescence Live 2026 — The Comeback</title>
+    <meta
+      name="description"
+      content="A night of good music — soul, groove, and a full live band, recorded live. Sun 26 July 2026 at Nirvana. Doors 4pm."
+    />
+    <link rel="canonical" href="https://iridescence.live/" />
+    <meta name="theme-color" content="#0D0D10" />
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/img/favicon-32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/img/favicon-16.png"
+    />
+    <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Iridescence Live" />
+    <meta property="og:title" content="Iridescence Live 2026 — The Comeback" />
+    <meta
+      property="og:description"
+      content="Good music · Full band · Recorded live. Sun 26 July 2026 at Nirvana, doors 4pm. Featuring Edge Golbador, Ceaser Music, Josh Gigins & more."
+    />
+    <meta property="og:url" content="https://iridescence.live/" />
+    <meta
+      property="og:image"
+      content="https://iridescence.live/assets/img/og-image.jpg"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Iridescence Live 2026 — The Comeback. Sun 26 July 2026 at Nirvana."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Iridescence Live 2026 — The Comeback" />
+    <meta
+      name="twitter:description"
+      content="Good music · Full band · Recorded live. Sun 26 July 2026 at Nirvana."
+    />
+    <meta
+      name="twitter:image"
+      content="https://iridescence.live/assets/img/og-image.jpg"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="wrap nav-inner">
+        <a class="logo" href="#top"
+          ><img
+            class="logo-mark"
+            src="assets/img/logo-mark.png"
+            alt=""
+          />IRIDESCENCE <span>LIVE</span></a
+        >
+        <ul class="nav-links">
+          <li><a href="#comeback">The comeback</a></li>
+          <li><a href="#tickets">Tickets</a></li>
+          <li><a href="#sponsors">Sponsors</a></li>
+          <li><a href="#venue">Venue</a></li>
         </ul>
-        <a class="btn btn-ghost" href="https://selar.com/YOUR-REGULAR-TICKET-SLUG">Get regular ticket</a>
+        <a class="btn btn-primary nav-cta" href="#tickets">Get tickets</a>
       </div>
-      <div class="tix vip">
-        <span class="badge">Best experience</span>
-        <div class="tier">VIP</div>
-        <div class="price">₦15,000</div>
-        <ul>
-          <li>Premium reserved seating</li>
-          <li>Priority entry</li>
-          <li>Exclusive event souvenir</li>
+    </nav>
+
+    <header id="top">
+      <div
+        class="hero-photo"
+        role="img"
+        aria-label="Portrait of the artist emerging from darkness"
+      ></div>
+      <div class="hero-veil"></div>
+      <div class="wrap hero-content">
+        <div class="rec">
+          <span class="rec-dot"></span>RECORDED LIVE &middot; IRIDESCENCE LIVE
+          2026
+        </div>
+        <h1><span class="grad-text">The</span><br />Comeback</h1>
+        <p class="hero-sub">
+          A night of <strong>good music</strong> — soul, groove, and a full live
+          band, captured in our first-ever live recording. This is the return.
+          Be in the room when it happens.
+        </p>
+        <div class="date-pill">
+          <div>
+            <b>SUN 26 JULY 2026</b><br /><span
+              >Doors 4pm &middot; Show 5pm</span
+            >
+          </div>
+          <i></i>
+          <div><b>NIRVANA</b><br /><span>Full live band</span></div>
+        </div>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#tickets">Get tickets</a>
+          <a class="btn btn-ghost" href="#sponsors">Become a sponsor</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="lineup" aria-label="Featured artists">
+      <div class="wrap lineup-inner">
+        <span class="eyebrow">Featuring</span>
+        <ul class="lineup-names">
+          <li>Edge Golbador</li>
+          <li>Ceaser Music</li>
+          <li>Josh Gigins</li>
+          <li class="more">+ more to be announced</li>
         </ul>
-        <a class="btn btn-primary" href="https://selar.com/YOUR-VIP-TICKET-SLUG">Get VIP ticket</a>
-      </div>
-    </div>
-    <p class="note">Prices shown are placeholders — buttons point to Selar placeholder links. Replace with the real Selar event links (see README).</p>
-  </div>
-</section>
-
-<section id="sponsors">
-  <div class="wrap">
-    <div class="eyebrow">Partners &amp; sponsors</div>
-    <h2>Powered by <span class="grad-text">people who believe</span></h2>
-    <p class="lead">Iridescence Live 2026 is made possible by organizations that champion creativity, community, and excellence. Your brand could be here — visible before, during, and long after the final note.</p>
-
-    <div class="partners">
-      <div class="tier-label"><b>Our partners</b><span>Production &amp; media</span></div>
-      <div class="chips">
-        <span class="chip">Maeyo Music</span>
-        <span class="chip">Creotribe</span>
-        <span class="chip">ClearEye Media</span>
-        <span class="chip">Nirvana</span>
       </div>
     </div>
 
-    <div class="tiers">
-      <div class="tier-row p-plat">
-        <div class="tier-label"><b>Platinum</b><span>₦500,000+</span></div>
-        <div class="slots s-2">
-          <div class="slot">Your brand here</div>
-          <div class="slot">Your brand here</div>
+    <section id="comeback">
+      <div class="wrap">
+        <div class="about-grid">
+          <div>
+            <div class="eyebrow">About the experience</div>
+            <h2>More than <span class="grad-text">a concert</span></h2>
+            <p class="lead">
+              Iridescence Live is a music experience built on one simple idea:
+              excellent, soulful, feel-good live music. The 2026 edition —
+              <strong>The Comeback</strong> — is our biggest night yet: a full
+              live band and our first-ever live recording, captured in the room
+              with you.
+            </p>
+            <div class="pillars">
+              <div class="pillar">
+                <b>Soul &amp; groove</b>
+                <p>
+                  Warm, feel-good live music with a full band — made to be felt,
+                  not just heard.
+                </p>
+              </div>
+              <div class="pillar">
+                <b>Recorded live</b>
+                <p>
+                  Every moment is captured — your energy in the room becomes
+                  part of the record.
+                </p>
+              </div>
+              <div class="pillar">
+                <b>One room</b>
+                <p>
+                  Music lovers and creatives, together for one unrepeatable
+                  evening.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="about-photo">
+            <img
+              src="assets/img/about.jpg"
+              alt="The artist in a white shirt, black and white portrait"
+            />
+          </div>
         </div>
       </div>
-      <div class="tier-row p-gold">
-        <div class="tier-label"><b>Gold</b><span>₦300,000 – ₦499,999</span></div>
-        <div class="slots s-3">
-          <div class="slot">Your brand here</div>
-          <div class="slot">Your brand here</div>
-          <div class="slot">Your brand here</div>
+    </section>
+
+    <section id="tickets">
+      <div class="wrap">
+        <div class="eyebrow">Tickets</div>
+        <h2>Be in <span class="grad-text">the room</span></h2>
+        <p class="lead">
+          Seats are limited — this is a live recording, and the room is part of
+          the sound.
+        </p>
+        <div class="tix-grid">
+          <div class="tix">
+            <div class="tier">Regular</div>
+            <div class="price">₦5,000</div>
+            <ul>
+              <li>General admission</li>
+              <li>Full live experience</li>
+              <li>Part of the live recording</li>
+            </ul>
+            <a
+              class="btn btn-ghost"
+              href="https://selar.com/YOUR-REGULAR-TICKET-SLUG"
+              >Get regular ticket</a
+            >
+          </div>
+          <div class="tix vip">
+            <span class="badge">Best experience</span>
+            <div class="tier">VIP</div>
+            <div class="price">₦20,000</div>
+            <ul>
+              <li>Premium reserved seating</li>
+              <li>Priority entry</li>
+              <li>Exclusive event souvenir</li>
+            </ul>
+            <a
+              class="btn btn-primary"
+              href="https://selar.com/YOUR-VIP-TICKET-SLUG"
+              >Get VIP ticket</a
+            >
+          </div>
+        </div>
+        <p class="note">
+          Prices shown are placeholders — buttons point to Selar placeholder
+          links. Replace with the real Selar event links (see README).
+        </p>
+      </div>
+    </section>
+
+    <section id="sponsors">
+      <div class="wrap">
+        <div class="eyebrow">Partners &amp; sponsors</div>
+        <h2>Powered by <span class="grad-text">people who believe</span></h2>
+        <p class="lead">
+          Iridescence Live 2026 is made possible by organizations that champion
+          creativity, community, and excellence. Your brand could be here —
+          visible before, during, and long after the final note.
+        </p>
+
+        <div class="partners">
+          <div class="tier-label">
+            <b>Our partners</b><span>Production &amp; media</span>
+          </div>
+          <div class="chips">
+            <span class="chip">Maeyo Music</span>
+            <span class="chip">Creotribe</span>
+            <span class="chip">ClearEye Media</span>
+            <span class="chip">Nirvana</span>
+          </div>
+        </div>
+
+        <div class="tiers">
+          <div class="tier-row p-plat">
+            <div class="tier-label"><b>Platinum</b><span>₦500,000+</span></div>
+            <div class="slots s-2">
+              <div class="slot">Your brand here</div>
+              <div class="slot">Your brand here</div>
+            </div>
+          </div>
+          <div class="tier-row p-gold">
+            <div class="tier-label">
+              <b>Gold</b><span>₦300,000 – ₦499,999</span>
+            </div>
+            <div class="slots s-3">
+              <div class="slot">Your brand here</div>
+              <div class="slot">Your brand here</div>
+              <div class="slot">Your brand here</div>
+            </div>
+          </div>
+          <div class="tier-row p-silv">
+            <div class="tier-label">
+              <b>Silver &amp; Bronze</b><span>₦50,000 – ₦299,999</span>
+            </div>
+            <div class="slots s-4">
+              <div class="slot">Your brand here</div>
+              <div class="slot">Your brand here</div>
+              <div class="slot">Your brand here</div>
+              <div class="slot">Your brand here</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sponsor-cta">
+          <p>
+            <strong>Partner with us.</strong> From financial sponsorship to
+            equipment, media, hospitality, and logistics support — every
+            partnership shapes the experience. Request the full sponsorship
+            proposal to see tier benefits.
+          </p>
+          <a
+            class="btn btn-primary"
+            href="mailto:hello@iridescence.live?subject=Sponsorship%20—%20Iridescence%20Live%202026"
+            >Request the proposal</a
+          >
         </div>
       </div>
-      <div class="tier-row p-silv">
-        <div class="tier-label"><b>Silver &amp; Bronze</b><span>₦50,000 – ₦299,999</span></div>
-        <div class="slots s-4">
-          <div class="slot">Your brand here</div>
-          <div class="slot">Your brand here</div>
-          <div class="slot">Your brand here</div>
-          <div class="slot">Your brand here</div>
+    </section>
+
+    <section id="venue">
+      <div class="wrap">
+        <div class="eyebrow">Venue &amp; details</div>
+        <h2>Getting <span class="grad-text">there</span></h2>
+        <div class="venue-grid">
+          <div>
+            <div class="fact">
+              <b>Venue</b>
+              <div>Nirvana<small>Full address to be announced</small></div>
+            </div>
+            <div class="fact">
+              <b>Date</b>
+              <div>
+                Sunday, 26 July 2026<small
+                  >Doors 4:00pm &middot; Show 5:00pm</small
+                >
+              </div>
+            </div>
+            <div class="fact">
+              <b>Format</b>
+              <div>
+                Live concert &amp; live recording<small>Full live band</small>
+              </div>
+            </div>
+            <div class="fact">
+              <b>Contact</b>
+              <div>
+                hello@iridescence.live<small
+                  >Placeholder — swap for real contact</small
+                >
+              </div>
+            </div>
+          </div>
+          <div>
+            <details open>
+              <summary>Will the event be recorded?</summary>
+              <p>
+                Yes — this edition is a live recording. By attending, you're
+                part of the atmosphere captured on the record.
+              </p>
+            </details>
+            <details>
+              <summary>What time should I arrive?</summary>
+              <p>
+                Doors open at 4:00pm and the show starts at 5:00pm. Arrive early
+                — seating for the recording is limited and cameras roll on time.
+              </p>
+            </details>
+            <details>
+              <summary>Is there a dress code?</summary>
+              <p>
+                Come comfortable and camera-ready — the room will be on film. No
+                strict dress code.
+              </p>
+            </details>
+            <details>
+              <summary>How do I become a sponsor or partner?</summary>
+              <p>
+                Use the "Request the proposal" button above or email us
+                directly. Partnerships in kind — equipment, media, hospitality —
+                are welcome too.
+              </p>
+            </details>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="sponsor-cta">
-      <p><strong>Partner with us.</strong> From financial sponsorship to equipment, media, hospitality, and logistics support — every partnership shapes the experience. Request the full sponsorship proposal to see tier benefits.</p>
-      <a class="btn btn-primary" href="mailto:hello@iridescencelive.com?subject=Sponsorship%20—%20Iridescence%20Live%202026">Request the proposal</a>
-    </div>
-  </div>
-</section>
-
-<section id="venue">
-  <div class="wrap">
-    <div class="eyebrow">Venue &amp; details</div>
-    <h2>Getting <span class="grad-text">there</span></h2>
-    <div class="venue-grid">
-      <div>
-        <div class="fact"><b>Venue</b><div>Nirvana<small>Full address to be announced</small></div></div>
-        <div class="fact"><b>Date</b><div>Sunday, 26 July 2026<small>Doors 4:00pm &middot; Show 5:00pm</small></div></div>
-        <div class="fact"><b>Format</b><div>Live concert &amp; live recording<small>Full live band</small></div></div>
-        <div class="fact"><b>Contact</b><div>hello@iridescencelive.com<small>Placeholder — swap for real contact</small></div></div>
+    <footer>
+      <div class="wrap">
+        <div class="foot-grid">
+          <div>
+            <a class="logo" href="#top"
+              ><img
+                class="logo-mark"
+                src="assets/img/logo-mark.png"
+                alt=""
+              />IRIDESCENCE <span>LIVE</span></a
+            >
+            <p>
+              Inspiring lives through excellence, creativity, and authentic live
+              musical expression.
+            </p>
+          </div>
+          <ul class="foot-links">
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">YouTube</a></li>
+            <li><a href="#">WhatsApp</a></li>
+          </ul>
+        </div>
+        <div class="foot-bottom">
+          <span>© 2026 IRIDESCENCE LIVE</span>
+          <span>THE COMEBACK · SUN 26 JULY 2026 · NIRVANA</span>
+        </div>
       </div>
-      <div>
-        <details open>
-          <summary>Will the event be recorded?</summary>
-          <p>Yes — this edition is a live recording. By attending, you're part of the atmosphere captured on the record.</p>
-        </details>
-        <details>
-          <summary>What time should I arrive?</summary>
-          <p>Doors open at 4:00pm and the show starts at 5:00pm. Arrive early — seating for the recording is limited and cameras roll on time.</p>
-        </details>
-        <details>
-          <summary>Is there a dress code?</summary>
-          <p>Come comfortable and camera-ready — the room will be on film. No strict dress code.</p>
-        </details>
-        <details>
-          <summary>How do I become a sponsor or partner?</summary>
-          <p>Use the "Request the proposal" button above or email us directly. Partnerships in kind — equipment, media, hospitality — are welcome too.</p>
-        </details>
-      </div>
-    </div>
-  </div>
-</section>
-
-<footer>
-  <div class="wrap">
-    <div class="foot-grid">
-      <div>
-        <a class="logo" href="#top">IRIDESCENCE <span>LIVE</span></a>
-        <p>Inspiring lives through excellence, creativity, and authentic live musical expression.</p>
-      </div>
-      <ul class="foot-links">
-        <li><a href="#">Instagram</a></li>
-        <li><a href="#">YouTube</a></li>
-        <li><a href="#">WhatsApp</a></li>
-      </ul>
-    </div>
-    <div class="foot-bottom">
-      <span>© 2026 IRIDESCENCE LIVE</span>
-      <span>THE COMEBACK · SUN 26 JULY 2026 · NIRVANA</span>
-    </div>
-  </div>
-</footer>
-
-</body>
+    </footer>
+  </body>
 </html>

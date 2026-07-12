@@ -31,7 +31,7 @@ Search `index.html` for these and replace:
    (tickets.selar.com), copy each ticket link, paste here. Also update the
    placeholder prices (₦5,000 / ₦15,000) and remove the "prices are
    placeholders" note.
-2. **Contact email** — `hello@iridescencelive.com` appears in the sponsor CTA
+2. **Contact email** — `hello@iridescence.live` appears in the sponsor CTA
    (mailto link) and the venue facts. Swap for the real email, or change the
    sponsor button to a WhatsApp link:
    `https://wa.me/234XXXXXXXXXX?text=Sponsorship%20enquiry%20—%20Iridescence%20Live`
@@ -53,7 +53,7 @@ Search `index.html` for these and replace:
 - **Vercel**: `npx vercel` from this folder, or import via dashboard.
 - **GitHub Pages**: push to a repo → Settings → Pages → deploy from branch.
 
-Then point the domain (e.g. iridescencelive.com) at it via your registrar's
+Then point the domain (iridescence.live) at it via your registrar's
 DNS. All three hosts give free HTTPS.
 
 ## Design tokens

@@ -19,6 +19,8 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--teal);outline-offse
 nav{position:sticky;top:0;z-index:50;background:rgba(13,13,16,.88);backdrop-filter:blur(10px);border-bottom:1px solid #1F1F26}
 .nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px}
 .logo{font-family:var(--display);font-size:18px;letter-spacing:.08em;text-decoration:none}
+.logo{display:inline-flex;align-items:center;gap:9px}
+.logo-mark{height:24px;width:24px;object-fit:contain}
 .logo span{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
 .nav-links{display:flex;gap:28px;align-items:center;list-style:none}
 .nav-links a{text-decoration:none;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);transition:color .2s}
