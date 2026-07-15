@@ -114,6 +114,8 @@ details p{color:var(--muted);font-size:14px;margin-top:10px;max-width:480px}
 .partners .tier-label span{font-size:12px;color:var(--dim);letter-spacing:.08em}
 .chips{display:flex;gap:14px;flex-wrap:wrap}
 .chip{border:1px solid #33333B;background:var(--bg2);border-radius:10px;padding:16px 26px;font-size:14px;letter-spacing:.1em;text-transform:uppercase;color:var(--cream)}
+.chip{display:inline-flex;align-items:center}
+.chip img{height:34px;width:auto;max-width:170px;object-fit:contain;opacity:.92}
 footer{border-top:1px solid #1A1A20;padding:60px 0 40px}
 .foot-grid{display:flex;justify-content:space-between;gap:32px;flex-wrap:wrap;align-items:flex-start}
 .foot-grid p{font-size:13px;color:var(--dim);max-width:340px}
